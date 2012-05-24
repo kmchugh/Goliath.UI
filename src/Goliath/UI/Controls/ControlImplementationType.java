@@ -38,7 +38,7 @@ public class ControlImplementationType extends Goliath.DynamicEnum
      * @param tcValue The value for the event type
      * @throws Goliath.Exceptions.InvalidParameterException
      */
-    public ControlImplementationType(String tcValue)
+    protected ControlImplementationType(String tcValue)
         throws Goliath.Exceptions.InvalidParameterException
     {
         super(tcValue);
